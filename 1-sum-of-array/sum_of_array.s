@@ -11,13 +11,10 @@
 # 1(b) What is the address location of the last element (element 7) of the array, X.
 #   X + 28
 # 2.   What are the values at location 'SUM' as the program executes?
-#       SUM is 0 until the third iteration where the value at $s1 is stored in SUM, which is 1
+#
 # 3.   Traverse the program in single-step mode. Write down the intermediate
 #      values stored in register $s1 as the program progresses.
-#       After main: 0
-#       Iteration 1: -2
-#       Iteration 2: -6
-#       Iteration 3: 1
+#
 # 4.   What is the purpose of register $t0 in this program?
 #       The purpose of $t0 is to store the address of the current array element
 #
