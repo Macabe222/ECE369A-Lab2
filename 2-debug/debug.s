@@ -1,29 +1,31 @@
 # Exercise 2
 #  Max Score: 9 points
 #
-# Students:
+# Students: 
 #
-# 'count_occurence.a' - count the occurrences of a specific character in string
+# 'count_occurence.a' - count the occurrences of a specific character in string 
 # "str". Indexed addressing is used to access the array elements.
 #  MAX Score: 15 points
-# Expected Outcome:-
+# Expected Outcome:- 
 # The following string will be printed on the console,
 # "Count is 6"
 #
 # Questions:-
 # 1. Briefly describe the purposes of the registers, $t0, $t1, $t2, and $t3.
-#   $t0 - The current character in the string that is being checked
-#   $t1 - The current index of the string
-#   $t2 - The total number of occurences of the letter 'e'
-#   $t3 - The letter (ascii value) 'e'
-# 2. Currently, the program is stuck in an infinite loop. Make use of
+#	$t0 stores the current character
+#	$t1 stores the current index to access the character
+#	$t2 stores the amount of occurences of the char
+#	$t3 stores the character we are looking for 
+
+# 2. Currently, the program is stuck in an infinite loop. Make use of 
 #    breakpoints to locate, and correct the error.
+#	The error is add $t1, $t2, 1 since it should use $t1 instead of $t2
 
 	.text
 
 	.globl main
 
-main:
+main:	
 
 	li      $t1, 0          # initialize register $t1 to '0'
 	li      $t2, 0          # initialize register $t2 to '0'
@@ -36,7 +38,7 @@ loop:
 	bne     $t0, $t3, con   # branches to 'con' if registers $t0, and $t3 are not the same
 	add     $t2, $t2, 1	    # increment register $t2
 
-con:
+con:	
 
     add     $t1, $t1, 1	    # increase indexing register $t1
 	j       loop	       	# continues the loop
@@ -65,3 +67,4 @@ str:	.asciiz "abceebceebeebbacacb"
 char:	.asciiz "e"
 ans:	.asciiz "Count is "
 endl:	.asciiz "\n"
+
