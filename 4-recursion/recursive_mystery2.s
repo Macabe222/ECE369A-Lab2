@@ -56,8 +56,8 @@ main:	addi	$sp, $sp, -4	# Make space on stack
 	li	$a0, 13		
 	jal	test		
 # What is the value of $v0 at this point?	(v0) = 34 #
-# What does this code compute? Your answer HERE: Its adding the amount of numbers that $a0 says, starting from $a1, then
-# for list 2 is going to compare the numbe that will be added to the sum with $a2 and if it is less than that it will not add
+# What does this code compute? Your answer HERE: It's adding the amount of numbers that $a0 says, starting from $a1, then
+# is going to compare the number that will be added to the sum with $a2 and if it is less than that it will not add.
 #it to the sum 
 
 return:	
