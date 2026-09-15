@@ -3,7 +3,8 @@
 #  Max Score: 5 points
 #
 # Students: 
-#
+# Kamil, Ian and Macabe 
+# We all worked on this together, 33% for each
 #
 # Insert your answers below each question:-
 # 1(a) What is the address location of the first element of the array, X.
