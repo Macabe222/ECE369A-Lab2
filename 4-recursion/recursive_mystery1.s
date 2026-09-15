@@ -44,5 +44,5 @@ li	$v0, 0			# Return value
 # Step through this code in your simulator and monitor the register values. 
 # What does the tomato function do?   
 # Write your answer HERE:
-# It is decreasing a0 from 8 to 0, when it reaches 0 it is going to set v0 to 0, add 8 to the return address and jumps back to that return address
+# It is decreasing $a0 until it reaches 0. Then it adds each element of the array starting at $a1 to $v0. It computes the sum of the first $a0 elements of the array. 
  
