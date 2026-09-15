@@ -43,4 +43,6 @@ li	$v0, 0			# Return value
 	jr 	$ra			# Return
 # Step through this code in your simulator and monitor the register values. 
 # What does the tomato function do?   
-# Write your answer HERE_ _ _ _ _ _ _ _ _ #                
+# Write your answer HERE:
+# It is decreasing a0 from 8 to 0, when it reaches 0 it is going to set v0 to 0, add 8 to the return address and jumps back to that return address
+ 
