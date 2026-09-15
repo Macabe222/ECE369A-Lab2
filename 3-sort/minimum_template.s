@@ -2,6 +2,8 @@
 # Max Score: 12 points
 #
 # Students: 
+# Kamil, Ian and Macabe 
+# We all worked on this together, 33% for each
 #
 # minimum.s 
 # Finds the index of the smallest element in an integer array
